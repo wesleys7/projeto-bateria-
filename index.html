@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DrumsHero</title>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background--loading">
+        <div class="carregando">
+            <img class="logo-bateria" src="assets/images/baterialogo2.png">
+            <div class="loading"></div>
+        </div>
+    </div>
+    
+    <div class="area">
+        <header>
+            <div class="top">
+                <h1>Just Play!</h1>  
+                <img class="logo-bateria" src="assets/images/baterialogo2.png">
+            </div>
+        </header>
+        <div class="play-area">
+            <div class="play-area-box">
+                <img class="bateria-completa" src="assets/images/bateria completa.png">
+                <img id="i_space" src="assets/images/espaco.png">
+                <img id="i_keyd" src="assets/images/keyd.png">
+                <img id="i_keye" src="assets/images/keye.png">
+                <img id="i_keyf" src="assets/images/keyf.png">
+                <img id="i_keyj" src="assets/images/keyj.png">
+                <img id="i_keyk" src="assets/images/keyk.png">
+                <img id="i_keyr" src="assets/images/keyr.png">
+                <img id="i_keyu" src="assets/images/keyu.png">
+                <div class="keys">
+                    <div data-key="space" class="space"><img id="space--bar" src="assets/images/spacebar.png"></div>
+    
+                    <div data-key="keyd" class="keyd">D</div>
+                    <div data-key="keyf" class="keyf">F</div>
+                    <div data-key="keyj" class="keyj">J</div>
+                    <div data-key="keyk" class="keyk">K</div>
+    
+                    <div data-key="keye" class="keye">E</div>
+                    <div data-key="keyr" class="keyr">R</div>
+                    <div data-key="keyu" class="keyu">U</div>
+                </div>
+                <div class="composer">
+                    <input type="text" id="input" placeholder= "Escreva uma sequência e aperte o play para executar! (Ex: df e/ kj/u)">
+                    <h6>Use a tecla / para dar um intervalo de tempo entre as batidas.</h6>
+                    <div class="play--button">Play</div>
+                </div>
+                <div class="click--space"></div>
+                <div class="click--d"></div>
+                <div class="click--f"></div>
+                <div class="click--j"></div>
+                <div class="click--k"></div>
+                <div class="click--e"></div>
+                <div class="click--r"></div>
+                <div class="click--u"></div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <audio id="s_space" src="assets/sounds/keyespaço.mp3"></audio>
+    <audio id="s_keyd" src="assets/sounds/keyd.mp3"></audio>
+    <audio id="s_keyf" src="assets/sounds/keyf.mp3"></audio>
+    <audio id="s_keyj" src="assets/sounds/keyj.mp3"></audio>
+    <audio id="s_keyk" src="assets/sounds/keyk.wav"></audio>
+    <audio id="s_keye" src="assets/sounds/keye.mp3"></audio>
+    <audio id="s_keyr" src="assets/sounds/keyr.mp3"></audio>
+    <audio id="s_keyu" src="assets/sounds/keyu.mp3"></audio>
+
+    
+    <script src="assets/js/script.js"></script>
+    
+</body>
+<footer>
+    <div class="footer">
+        <div class="developed"><h1>© 2023 - Developed by <a href="https://www.instagram.com/wesleys.7/?hl=pt-br" target="_blank"><em>Wesley Souza</em>.</a></h1>
+        </div>
+    </div>
+</footer>
+</html>
